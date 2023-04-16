@@ -4,9 +4,9 @@ MlStreamlit是基于Streamlit的机器学习可视化工具，主要用于快速
 
 ## 项目需求
 
-第一阶段的开发任务希望实现下图的工能：
+第一阶段的开发任务希望实现下图的功能：
 
-<img alt="需求" height="200" src="/doc/img/xuqiu.png" width="200"/> 
+<img alt="需求" height="500" src="/doc/img/xuqiu.png" width="500"/> 
 
 
 ## 开发环境
