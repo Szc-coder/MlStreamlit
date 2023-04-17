@@ -1,6 +1,6 @@
 import streamlit as st
-import time
 import webbrowser
+
 
 st.balloons()
 
@@ -31,6 +31,13 @@ st.markdown('''
     3. 在Step3 Vis中，您可以进行模型可视化，以及模型的保存和加载。
     4. 在Step4 Real中，您可以进行模型的部署，以及模型的实时预测。
     ''')
+st.markdown('''
+         1. In general, you need to upload the data set in Step1 Feat on the left, and you can perform data analysis and data preprocessing on this page.      
+         2. In Step2 Model, you can select a model, perform model training, model evaluation, model prediction and other operations.      
+         3. In Step3 Vis, you can visualize the model, save and load the model.      
+         4. In Step4 Real, you can deploy the model and perform real-time prediction of the model.
+            ''')
 
 st.header('Code with ❤️ by Szc-coder')
 st.button('Go to github', on_click=to_github)
+
